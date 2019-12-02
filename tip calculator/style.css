@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #43C6AC,  #F8FFAE);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#43C6AC, #F8FFAE);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#container {
+  margin-top: 0;
+  height: auto;
+  width: 500px;
+  margin: 50px auto;
+  background: -webkit-linear-gradient(to right, #FEAC5E, #C779D0, #4BC0C8);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,#FEAC5E, #C779D0, #4BC0C8);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#head {
+    padding: 23px 0;
+    border-bottom: 6px dotted lightgray;
+}
+h1 {
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 10px 100px;
+    text-transform: uppercase;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: inline;
+}
+
+#h1 {
+    font-size: 30px;
+}
+.fa {
+    padding: 10px;
+}
+
+#calculator {
+    padding-top: -40px;
+}
+p {
+  margin-top: 20px;
+  font-size: 18px;
+  display: inline-table;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+form input[type="text"] {
+  width: 90px;
+}
+
+input {
+  padding-left: 20px;
+}
+
+#billamt {
+  font-size: 18px;
+  color: #2980b9;
+  background-color: #f7f7f7;
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+}
+
+#billamt:focus {
+  background: #fff;
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
+#peopleamt {
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  color: #2980b9;
+  background-color: #f7f7f7;
+  font-size: 18px;
+}
+
+.dollarSign {
+  display: inline;
+}
+
+#serviceQual {
+  padding: 13px 13px 20px 20px;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: #719192;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  color: white;
+  box-shadow: 0 0 1px #ccc;
+  -webkit-transition-duration: 0.7s;
+  -webkit-transition-timing-function: linear;
+  box-shadow:0px 0 0 #31708f  inset;
+}
+
+button:hover {
+  box-shadow:200px 0 0 #31708f inset;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+#totalTip {
+  font-size: 30px;
+  margin: 5px 0 35px 0;
+  text-align: center;
+}
+
+#totalTip:before {
+  content: "Tip amount";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
+
+
+#totalTip small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
+
+a {
+    color: darkgrey;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
