@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #444;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+body {
+    background-color: #fffdf9;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 10px auto;
+    align-items: flex-start;
+}
+.wrapper-child {
+    margin: 10px;
+    width: 23%; 
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    flex-direction: column;
+    background-color: #e4f2f0;
+    height: 420px;
+ }
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 25px;
+    background-color: #50b6bb;
+    line-height: 2;
+    padding: 10px;
+}
+
+.steps {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px 0;
+    
+}
+#canvas-meme {
+    width: 300px;
+}
+textarea::placeholder {
+    font-size: 16px;
+}
+span, label, select {
+    font-size: 16px;
+    margin: 15px 0;
+}
+input[type='file'] {
+    margin: 10px auto;
+}
+.wrapper-child button {
+    box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	border-radius:10px;
+	border:2px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#5b6163;
+	font-size:16px;
+	font-weight:bold;
+	padding:6px 31px;
+    height: 40px;
+    margin: 10px;
+    outline: none;
+}
+
+.wrapper-child button:hover {
+    background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.wrapper-child button:active {
+    position:relative;
+	top:1px;
+}
+#footer {
+    background-color: #ffd271;
+    padding-right: 20px;
+    text-align: end;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+        padding: 10px;
+    }
+    .wrapper-child {
+        width: 90%;
+        height: 420px;
+    }
+    .steps {
+        font-size: 20px;
+    }
+    span, label, select {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 600px)  {
+.wrapper-child {
+    width: 45%;
+}
+h1 {
+    font-size: 40px;
+    padding: 10px;
+}
+.steps {
+    font-size: 25px;
+}
+span, label, select {
+    font-size: 14px;
+}
+}
+
+@media screen and (min-width: 1125px)  {
+    .wrapper-child {
+        width: 23%;
+    }
+    h1 {
+        font-size: 50px;
+        padding: 10px;
+    }
+    .steps {
+        font-size: 30px;
+    }
+    span, label, select {
+        font-size: 16px;
+    }
+    }
