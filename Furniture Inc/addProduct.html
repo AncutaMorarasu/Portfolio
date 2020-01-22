@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Furniture Inc Add Product</title>
+    <link rel="shortcut icon" href="images/imagesHeader/favicon.png" type="image/vnd.microsoft.icon">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheets/addProduct.css">
+    <link rel="stylesheet" href="stylesheets/header.css" type="text/css">
+    <link rel="stylesheet" href="stylesheets/footer.css" type="text/css">
+</head>
+
+<body>
+    <div id="header">
+    </div>
+    <div id="admin-content">
+        <h1>Add Product</h1>
+        <a href="admin.html">Back to Administration Page</a>
+    </div>
+    <div id="product-template" class="product hidden">
+        <div class="product-real">
+            <p class="product-title"> Product Name</p>
+            <input type="text" placeholder="Add product name" id="add-name" value="">
+            <p class="product-id"> Product Id</p>
+            <input type="number" placeholder="Add product Id" id="add-id" value="">
+            <p>Product Photo</p>
+            <input type="text" placeholder="Fill in the path to the product photo" id="add-photo-url" value="">
+            <p class="product-description"> Product Description</p>
+            <input type="text" placeholder="Fill in the product description" id="add-description" value="">
+            <p class="product-stock">Available Stock</p>
+            <input type="number" placeholder="Enter number of available products in stock" id="add-stock" value="">
+            <p class="product-price">Product Price<span class="price"></span> <span class="currency"></span></p>
+            <input type="number" placeholder="Enter product price in RON" id="add-price" value="">
+            <p>Product Status </p>
+            <input type="radio" name="product-status" value="Enabled">Enabled
+            <br>
+            <input type="radio" name="product-status" value="Disabled">Disabled
+            <br>
+            <input class="save-changes" type="button" value="Add product" id="add-product"/>
+            <input class="delete-changes" type="button" value="Delete product" id="delete-product"/>
+        </div>
+    </div>
+
+    <div id="footer">
+    </div>
+    <script src="scripts/addProduct.js"></script>
+    <script src="scripts/mainPageParts.js"></script>
+    <script src="scripts/footer.js"></script>
+</body>
+
+</html>

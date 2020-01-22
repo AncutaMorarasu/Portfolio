@@ -1,0 +1,89 @@
+#admin-content>h1 {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 40px;
+}
+
+#admin-content>a {
+    margin-left: 20px;
+}
+
+.product-real {
+    background-color: cornsilk;
+    margin: 40px 20px;
+    padding: 40px;
+}
+
+.product-real>p {
+    font-size: 22px;
+
+}
+
+input[type='text'] {
+    height: 30px;
+    width: 300px;
+    margin: 5px 0 25px 0;
+    font-size: 14px;
+}
+input[type='number'] {
+    height: 30px;
+    width: 300px;
+    margin: 5px 0 25px 0;
+    font-size: 14px;
+}
+
+input[type='radio'] {
+    margin: 10px;
+}
+
+input[type='text']:focus {
+    outline: none;
+}
+
+.save-changes {
+    display: inline-block;
+    color: #fff;
+    background-color: #00AA5B;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 20px 0 0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 35px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.save-changes:hover {
+    background-color: #007944;
+    color: #fff;
+}
+
+.delete-changes {
+    display: inline-block;
+    color: #fff;
+    background-color: #ffa259;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 20px 0 0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 35px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-changes:hover {
+    background-color: #fe6845;
+    color: #fff;
+}
