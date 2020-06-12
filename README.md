@@ -4,7 +4,7 @@ Repository with web applications created while learning front end development.
 
 ## Drum kit
 Fun and simple app that lets you play with drum sounds both with mouse clicks and the keyboard.
----
+--
 Technologies: HTML5, CSS3, Javascript.
 
 ## Tip calculator
