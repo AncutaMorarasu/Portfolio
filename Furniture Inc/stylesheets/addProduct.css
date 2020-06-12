@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand";
+    color: #444;
+  }
+.hidden {
+    display: none;
+}
+#admin-content>h1 {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 40px;
+}
+
+#admin-content>a {
+    margin-left: 20px;
+}
+
+.product-real {
+    background-color: cornsilk;
+    margin: 40px 20px;
+    padding: 40px;
+}
+
+.product-real>p {
+    font-size: 22px;
+
+}
+
+input[type='text'] {
+    height: 30px;
+    width: 300px;
+    margin: 5px 0 25px 0;
+    font-size: 14px;
+}
+input[type='number'] {
+    height: 30px;
+    width: 300px;
+    margin: 5px 0 25px 0;
+    font-size: 14px;
+}
+
+input[type='radio'] {
+    margin: 10px;
+}
+
+input[type='text']:focus {
+    outline: none;
+}
+
+.save-changes {
+    display: inline-block;
+    color: #fff;
+    background-color: #00AA5B;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 20px 0 0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 35px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.save-changes:hover {
+    background-color: #007944;
+    color: #fff;
+}
+
+.save-changes:focus {
+    outline: none;
+}
+
+.clear {
+    display: inline-block;
+    color: #fff;
+    background-color: #ffa259;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 20px 0 0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 35px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.clear:hover {
+    background-color: #fe6845;
+    color: #fff;
+}
+.clear:focus {
+    outline: none;
+} 
+
+.confirmation {
+    display: none;
+    background-color: #00AA5B; 
+    font-size: 25px;
+    line-height: 4;
+    position: fixed;
+    top: 50%;
+    left: 5%;
+    z-index: 1; 
+    height: 100px;
+    width: 90%;
+}
+
+#prevent-submit {
+    height: 100px;
+    width: 90%;
+    background-color: darkseagreen;
+    font-size: 25px;
+    text-align: center;
+    line-height: 4;
+    position: fixed;
+    top: 50%;
+    left: 5%;
+    z-index: 1;
+}
+.error {
+    border: 3px solid red;
+  }
+
+  #status {
+      width: 230px;
+  }

@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand";
+  color: #444;
+}
+
+#main-content {
+  margin: 0 auto;
+}
+
+#wrapperCart {
+  display: flex;
+  margin-left: 20px;
+}
+
+#items {
+  width: 100%;
+  margin: 30px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+h3 {
+  font-size: 35px;
+  text-align: center;
+  background-color: aliceblue;
+  margin: 20px;
+}
+
+#empty-bag {
+  text-align: center;
+}
+
+.cart-product {
+  display: inline-flex;
+  background-color: #f2f6f5;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 5px;
+}
+
+#id-div{
+  margin: 20px auto;
+}
+
+#product-quantity {
+  margin: 20px auto;
+}
+
+
+#amounts {
+  background-color: antiquewhite;
+  margin: 30px 20px;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 180px;
+}
+
+.fa-shopping-cart {
+  font-size: 30px;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.value-button {
+  display: inline-block;
+  border: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 11px 0;
+  background: #eee;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none!important;
+}
+
+#product-name {
+  padding: 15px;
+  text-align: left;
+  width: 250px;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+#product-price {
+  font-size: 17px;
+  margin: 20px 0;
+}
+
+#subtotal-product {
+  font-weight: bolder;
+  color: forestgreen;
+  margin: 10px 0;
+  font-family: 'Alata';
+}
+
+#subtotalPar {
+  margin: 10px 0;
+}
+
+#remove-item {
+  width: 150px;
+  background-color: #ffb6b9;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+#remove-item:hover {
+  background-color: #f5587b;
+  color: #fff;
+}
+
+#remove-item:focus {
+  outline: none;
+}
+
+#amounts h3 {
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  margin: 20px 0;
+  background-color: antiquewhite;
+
+}
+
+#checkout-btn {
+  width: 250px;
+  height: 30px;
+  background-color: #52de97;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+#checkout-btn:hover {
+  background-color: #0c9463;
+  color: #fff;
+  font-weight: bolder;
+}
+
+#subtotal {
+  font-family: "Alata";
+  font-weight: bolder;
+  color: #0c9463;
+}
+
+#total-amount {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+#checkout-total {
+  color: #0c9463;
+  font-weight: bolder;
+}

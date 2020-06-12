@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand';
+    color: #444
+}
+.hidden {
+    display: none !important;
+}
+#admin-content>h1 {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 40px;
+}
+
+#admin-content>a {
+    margin-left: 20px;
+}
+
+#product-real {
+    background-color: cornsilk;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+#product-real>p {
+    font-size: 22px;
+}
+#idPar{
+    margin-bottom: 25px;
+}
+
+#product-real>img {
+    height: 100px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type='text'], input[type='number'] {
+    height: 30px;
+    width: 300px;
+    margin: 5px 0 25px 0;
+    font-size: 14px;
+}
+
+input[type='text']:focus, input[type='number']:focus {
+    outline: none;
+}
+
+input[type='radio'] {
+    margin: 10px;
+}
+
+#save-changes {
+    display: inline-block;
+    color: #fff;
+    background-color: #00AA5B;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 20px 0 0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 35px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#save-changes:hover {
+    background-color: #007944;
+    color: #fff;
+}
+
+#save-changes:focus {
+    outline: none;
+}
+
+#delete-product {
+    display: inline-block;
+    color: #fff;
+    background-color: #ffa259;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 20px 0 0;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 35px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#edit-product:hover {
+    background-color: #fe6845;
+    color: #fff;
+}
+#edit-product:focus {
+    outline: none;
+}
+
+#product-template {
+    position: relative;
+    top: 20px;
+    margin-left: 20px;
+}
+
+.confirmation {
+    background-color: #00AA5B; 
+    font-size: 25px;
+    line-height: 4;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 5%;
+    z-index: 1;
+    width: 90%;
+}
+
+#prevent-submit {
+    height: 100px;
+    width: 90%;
+    background-color: darkseagreen;
+    font-size: 25px;
+    text-align: center;
+    line-height: 4;
+    position: fixed;
+    top: 50%;
+    left: 5%;
+    z-index: 1;
+}
+.error {
+    border: 3px solid red;
+  }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Furniture Inc Product Page</title>
+    <link rel="shortcut icon" href="./images/imagesHeader/favicon.png" type="image/vnd.microsoft.icon">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylesheets/header.css" type="text/css">
+    <link rel="stylesheet" href="stylesheets/footer.css" type="text/css">
+    <link rel="stylesheet" href="stylesheets/productPage.css" type="text/css">
+</head>
+
+<body>
+    <div id="header">
+
+    </div>
+    <a href="index.html" target="_blank" id="goback">Back to Main Page</a>
+    <div id="mainContent">
+        
+        <div id="parent-product">
+            <div id="single-product-template">
+                <div id="productPhoto" class="rowProduct">
+                    <img  id="srcPhoto" src="" alt="furniture">
+                </div>
+                <div id="productDetails" class="rowProduct">
+                    <h2 id="product-name"></h2>
+                    <h4>Product Details</h4>
+                        <p id="product-details"></p>
+                        <p>Product ID : &nbsp;<span id="prod-id"></span></p>
+                    
+                    <p><span id="available-stock"></span> available items in stock.</p>
+                    <p id="price"> <span id="currency">RON</span></p>
+                    <form>
+                        <label for="quantity">Select Quantity</label>
+                        <input type="number" id="quantity" min="1" max="10" value="1">
+                        <input type="button" class="add-to-cart" id="cart-button" value="Add to Cart">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="footer">
+
+    </div>
+
+<script src="scripts/productPage.js"></script>
+<script src="scripts/mainPageParts.js"></script>
+<script src="scripts/commonScripts.js"></script>
+</body>
+</html>
