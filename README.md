@@ -22,7 +22,7 @@ Technologies: HTML5, CSS3, Javascript.
  
  Features client section: 
  - view all products, sort them by price, name.
- - view individual product details, add a certain quanitity to cart.
+ - view individual product details, add a certain quantity to cart.
  - view shopping cart, adjust product quantity, remove products from cart.
  
 Features admin section:
