@@ -18,8 +18,8 @@ A fun way to generate your own memes. Upload a picture from your device, add a t
 Technologies: HTML5, CSS3, Javascript.
  
  ## Furniture Inc
- Online shopping platform with admin section.
- 
+ Online shopping platform with admin section publishe here http://ancutamorarasu.com/. 
+
  Features client section: 
  - view all products, sort them by price, name.
  - view individual product details, add a certain quantity to cart.
