@@ -8,12 +8,12 @@ Fun and simple app that lets you play with drum sounds both with mouse clicks an
 Technologies: HTML5, CSS3, Javascript.
 
 ## Tip calculator
-App that allows you to calculaye how big of a tip your waiter gets depending on the check amount, the number of people at the table and your generosity :)
+App that allows you to calculaye how much you should tip your waiter gets depending on the check amount, the number of people at the table and your generosity :)
 
 Technologies: HTML5, CSS3, Bootstrap, Javascript.
 
 ## Meme generator
-A fun way to generate your own memes. Upload a picture from your device, add a text on the upper and bottom side of it, choose your preferred font family, size and color, generate and download the meme. 
+A fun, responsive app through which you can generate your own memes. Upload a picture from your device, add a text on the upper and bottom side of it, choose your preferred font family, size and color, generate and download the meme. 
 
 Technologies: HTML5, CSS3, Javascript.
  
