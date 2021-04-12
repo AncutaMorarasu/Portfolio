@@ -18,7 +18,7 @@ A fun, responsive app through which you can generate your own memes. Upload a pi
 Technologies: HTML5, CSS3, Javascript.
  
  ## Furniture Inc
- Online shopping platform with admin section publishe here http://ancutamorarasu.com/. 
+ Online shopping platform with admin section publishe here http://ancutamorarasu.com/FurnitureInc. 
 
  Features client section: 
  - view all products, sort them by price, name.
